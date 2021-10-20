@@ -17,7 +17,7 @@ body{
     font-family: 'Ubuntu Condensed', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: space-between;
 }
 
 .overlay{
@@ -90,10 +90,9 @@ form textarea{
 }
 
 footer{
-    
+    margin: 0 1rem;
     color:white;
-    
-
-
     padding:1rem;
+
+z-index: 10000;
 }
